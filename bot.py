@@ -29,7 +29,7 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send("Hello bro 😎")
 
-@bot.tree.command(name="chui", description="Chửi nhẹ 🤡")
+@bot.tree.command(name="chui", description="Chửi thấy mẹ nó 🤡")
 @app_commands.describe(user="Người bạn muốn chửi")
 async def chui(interaction: discord.Interaction, user: discord.Member):
     chui_list = [
